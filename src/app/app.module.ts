@@ -8,12 +8,14 @@ import { LandingComponent } from './landing/landing.component';
 import { LoginService } from './services/login.service';
 import { HomeComponent } from './home/home.component';
 import { AuthguardService } from './services/authguard.service';
+import { TransactionComponent } from './transaction/transaction.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
-    HomeComponent
+    HomeComponent,
+    TransactionComponent
   ],
   imports: [
     BrowserModule,

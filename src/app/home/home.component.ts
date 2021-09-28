@@ -16,5 +16,7 @@ export class HomeComponent implements OnInit {
     localStorage.removeItem('SessionUser')
     this.router.navigate(['/logout'])
   }
-
+  addNewTransaction(){
+    this.router.navigate(['/add'])
+  }
 }
